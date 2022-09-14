@@ -1,0 +1,46 @@
+.lin{
+    display: flex;
+margin-left: 1rem;
+margin-top: 1rem;
+}
+button{
+    margin-top: 1rem;
+  
+}
+.cartt{
+    position: relative;
+     display: -ms-flexbox;
+     display: flex;
+     -ms-flex-direction: column;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+  background-color: white;
+     background-clip: border-box;
+     border: 1px solid rgba(0,0,0,.125);
+     border-radius: .25rem;
+     background-color: white;
+     height: 16.3rem;
+     border: none;
+     width: 16.5rem;
+     margin-top: 1rem;
+  }
+  @media screen and (max-width:414px) {
+    .cartt{
+        width: 100%;
+       margin-top: 2rem;
+    }
+    button{
+        margin-top: -2.35rem;
+    }
+  }
+  @media screen and (max-width: 820px) {
+    .cartt{
+        width: 100%;
+        margin-top: 2rem;
+        height: 17rem;
+    }
+    button{
+        margin-top: -2.45rem;
+    }
+  }

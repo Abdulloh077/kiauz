@@ -1,0 +1,60 @@
+h1{
+    text-align: center;
+    margin-top: 6rem;
+}
+.card{
+   margin-top: 2rem;
+
+    height: 19rem;
+}
+@media screen and (max-width: 414px) {
+    .card{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    h2{
+        text-align: center;
+        margin-top: 5rem;
+    }
+  .tfg  p{
+text-align: center;
+    }
+ 
+}
+@media screen and (max-width: 820px) {
+ 
+   .card{
+        width: 100%;
+        margin-top: 2rem;
+    }
+    h2{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .tfg p{
+        text-align: center;
+    }
+ 
+}
+h2{
+    text-align: center;
+    margin-top: 2rem;
+}
+.tfg p{
+    margin-top: 2rem;
+}
+@media screen and (max-width:990px) {
+    .card{
+        width: 100%;
+    }
+}
+@media screen and (max-width:1000px) {
+    .card{
+        margin-right: 2.4rem;
+    }
+   .row{
+    display: flex;
+    justify-content: space-around;
+   } 
+    
+}

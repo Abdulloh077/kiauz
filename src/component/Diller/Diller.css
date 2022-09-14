@@ -1,0 +1,61 @@
+a{
+margin-left: 3rem;
+margin-top: rem;
+}
+.roy1{
+margin-top: 1rem;
+}
+.roy{
+    display: flex;
+ margin-left: 2xrem;
+    align-items: center;
+    margin-top: 3rem;
+    transition: 1s;
+    height: 12rem;
+    
+}
+ .h5{
+    margin-left: 8rem;
+}
+.roy:hover{
+    background-color: whitesmoke
+    ;
+    cursor: pointer;
+   
+}
+ .pl{
+    margin-left: 8rem;
+}
+@media screen and (max-width:414px) {
+    h1{
+        text-align: center;
+        width: 100%;
+    }
+    h5{
+        margin-left: 0;
+    }
+    .roy{
+        display: block;
+    width: 100%;
+        margin-left: 2rem;
+        margin-top: 0;
+       
+    }
+    .pl{
+        margin-left: 0;
+    }
+    .roy1{
+margin-top: 2rem;
+    }
+}
+@media screen and (max-width:820px) {
+    .roy{
+       display: block;
+       width: 100%;
+       margin-top: 2rem;
+    }
+ .yl{
+    margin-left: 8rem;
+   
+ }
+}

@@ -1,0 +1,131 @@
+nav{
+    height: 80px;
+    width: 100%;
+
+}
+
+
+.logo{
+    margin-top: 2rem;
+    margin-left: 12rem;
+
+}
+nav ul{
+    float: right;
+    margin-right: 260px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 10px;
+   list-style: none;
+}
+nav ul li a{
+    color:black;
+    font-size: 17px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+a.active,a:hover{
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: black;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+display: none;
+}
+#check{
+    display: none;
+}
+@media screen and (max-width:952px ) {
+  
+    nav ul li a {
+font-size: 16px;
+    }
+}
+@media screen and (max-width:1000px) {
+ 
+ nav{
+    z-index: 1 !important;
+ }  
+ .ul {
+ background-color: #fff;    
+}
+  .checkbtn{
+        display: block;
+    
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        list-style: none;
+    }
+    nav ul li a{
+        font-size: 20px;
+       
+    }
+    a:hover,a.active{
+        background: none;
+        color: #0082e6;
+    }
+    #check:checked ~ ul {
+        left: 0;
+    }
+}
+
+
+@media screen and (max-width:414px) {
+    .logo{
+        margin-top: 2rem;
+        margin-left: 2rem;
+     }  
+}
+
+@media screen and (max-width:1024px) {
+   nav{
+   
+    width: 100%;
+   
+   }
+   nav ul{
+    margin-right: 100px;
+
+   }
+   .logo{
+    margin-right: 2rem;
+   }
+
+}
+@media screen and  (max-width:1032px) {
+    nav{
+       
+      
+        width: 100%;
+    }
+    .ul{
+        margin-right: 100px;
+    }
+    .logo{
+        margin-right: 2rem;
+    }
+
+}
+@media screen and (max-width:820px) {
+
+  .logo{
+   margin-left: 0;
+}
+}
